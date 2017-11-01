@@ -16,9 +16,17 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [
-        'name' => 'Anthony Filgueira',
-        'email' => 'anthonyfilgueira@hotmail.com',
+        'name' => $faker->name,
+        'email' => $faker->email,
         'password' => $password ?: $password = bcrypt('1234'),
         'remember_token' => str_random(10),
+    ];
+});
+$factory->define(App\Post::class, function (Faker\Generator $faker) {
+   
+    return [
+        'title'   => $faker->sentence,
+        'content' => $faker->paragraph,
+        'pending' => $faker->boolean()
     ];
 });

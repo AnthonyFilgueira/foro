@@ -2,15 +2,13 @@
 
 class ExampleTest extends FeatureTestCase
 {
-   
-    /**
-     * A basic functional test example.
-     *
-     * @return void
-     */
+
     function test_basic_example()
     {
-        $user = factory(\App\User::class)->create();
+        $user = factory(\App\User::class)->create([
+        	'name'=>'Anthony Filgueira',
+        	'email'=> 'anthonyfilgueira@hotmail.com'
+        ]);
 
         $this->actingAs($user,'api')
              ->visit('api/user')

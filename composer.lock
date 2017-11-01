@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "091169c0a91b84c5de0e307f1bfd9f39",
+    "hash": "62cbb59a0231d9b3a1da800d30c9af1a",
     "content-hash": "5171f93af9112e964aef5c19afdf480c",
     "packages": [
         {
@@ -558,16 +558,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "0.15.6",
+            "version": "0.15.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "91742543c25fecedc84a4883d2919213e04a73b7"
+                "reference": "36d82f166e441dfa28643f8d01dd8bdd3a579adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/91742543c25fecedc84a4883d2919213e04a73b7",
-                "reference": "91742543c25fecedc84a4883d2919213e04a73b7",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/36d82f166e441dfa28643f8d01dd8bdd3a579adf",
+                "reference": "36d82f166e441dfa28643f8d01dd8bdd3a579adf",
                 "shasum": ""
             },
             "require": {
@@ -623,7 +623,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2017-08-08 11:47:33"
+            "time": "2017-10-26 15:41:07"
         },
         {
             "name": "league/flysystem",
@@ -788,7 +788,7 @@
         },
         {
             "name": "mtdowling/cron-expression",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
